@@ -103,10 +103,10 @@
             }
         },
         {
-            "Key": "909862dd-53e8-4a8d-8b49-44fc4f037efc",
+            "Key": "95a28ab0-6c3a-4358-819f-35eede1bdf72",
             "Value": {
-                "id": "e3640b8d-bc8c-4c83-9b05-612e94567fa4",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "id": "901e08ee-74bb-4783-a9ba-8da75a517737",
+                "resourcePath": "sprites\\b8edb583_6beb_4c18_99b5_875d8287d3b1\\b8edb583_6beb_4c18_99b5_875d8287d3b1.yy",
                 "resourceType": "GMSprite"
             }
         },
