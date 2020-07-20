@@ -65,7 +65,7 @@
     "physicsGroup": 0,
     "physicsKinematic": true,
     "physicsLinearDamping": 0.1,
-    "physicsObject": true,
+    "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
@@ -100,7 +100,36 @@
         }
     ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "452ef733-e342-402c-bd63-ea739c398731",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "velocity",
+            "varType": 0
+        },
+        {
+            "id": "28adc241-39bb-480b-9a79-d966422b94fc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.1",
+            "varName": "acceleration",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "95a28ab0-6c3a-4358-819f-35eede1bdf72",
     "visible": true

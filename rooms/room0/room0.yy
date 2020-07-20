@@ -84,7 +84,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_523D50DA","id": "b66e4388-1de4-4981-b0ec-4a790fec1641","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_523D50DA","objId": "1010109f-6a48-4a65-b7c6-5977d523b613","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 384,"y": 672}
+{"name": "inst_523D50DA","id": "b66e4388-1de4-4981-b0ec-4a790fec1641","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_523D50DA","objId": "1010109f-6a48-4a65-b7c6-5977d523b613","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 320,"y": 576}
             ],
             "layers": [
 
@@ -138,7 +138,7 @@
         "id": "5ea929c8-b33d-4023-8bc7-8fe4216bf8e0",
         "inheritPhysicsSettings": false,
         "modelName": "GMRoomPhysicsSettings",
-        "PhysicsWorld": true,
+        "PhysicsWorld": false,
         "PhysicsWorldGravityX": 0,
         "PhysicsWorldGravityY": 10,
         "PhysicsWorldPixToMeters": 0.1,

@@ -1,1 +1,1 @@
-phy_speed_x = 0;
+speed = 0;
