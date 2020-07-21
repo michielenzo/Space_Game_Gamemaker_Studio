@@ -4,7 +4,6 @@ velocity += acceleration
 
 //Tile collision
 var NO_TILE = 0
-
 tilemap = layer_tilemap_get_id("Tiles")
 
 var tile = tilemap_get_at_pixel(tilemap, x, y + sprite_height)

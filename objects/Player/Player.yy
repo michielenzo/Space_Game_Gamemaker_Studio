@@ -135,7 +135,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
+            "value": "0.08",
             "varName": "acceleration",
             "varType": 0
         }
