@@ -63,6 +63,16 @@
             "enumb": 32,
             "eventtype": 5,
             "m_owner": "1010109f-6a48-4a65-b7c6-5977d523b613"
+        },
+        {
+            "id": "94c95855-5c00-4d19-89a1-e8b79f2e6cda",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 9,
+            "m_owner": "1010109f-6a48-4a65-b7c6-5977d523b613"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -177,9 +187,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "IDLE",
+            "value": "idle",
             "varName": "STATE",
             "varType": 2
+        },
+        {
+            "id": "089924bc-9d17-401a-a060-5a6f35dd0638",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "boost_force",
+            "varType": 0
         }
     ],
     "solid": false,
