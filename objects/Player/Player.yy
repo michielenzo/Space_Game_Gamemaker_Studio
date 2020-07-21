@@ -138,6 +138,34 @@
             "value": "0.08",
             "varName": "acceleration",
             "varType": 0
+        },
+        {
+            "id": "6b1152a1-c40e-484b-9479-a99c4e3a18f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "yprevious_from_fall_left",
+            "varType": 0
+        },
+        {
+            "id": "c7321301-c94b-41d6-9e0f-c337c4ffa74a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "yprevious_from_fall_right",
+            "varType": 0
         }
     ],
     "solid": false,
