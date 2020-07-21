@@ -1,1 +1,2 @@
-velocity = -5;
+if(STATE != "jumping") velocity = -5
+STATE = "jumping"

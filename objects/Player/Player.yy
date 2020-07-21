@@ -166,6 +166,20 @@
             "value": "0",
             "varName": "yprevious_from_fall_right",
             "varType": 0
+        },
+        {
+            "id": "2d0692e3-0e1b-4eae-ac9e-9ea0cbdbc653",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "IDLE",
+            "varName": "STATE",
+            "varType": 2
         }
     ],
     "solid": false,
