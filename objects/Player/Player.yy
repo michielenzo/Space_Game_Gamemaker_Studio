@@ -55,17 +55,17 @@
             "m_owner": "1010109f-6a48-4a65-b7c6-5977d523b613"
         },
         {
-            "id": "c933b470-76b3-4a69-b2c4-84320c1cea66",
+            "id": "94c95855-5c00-4d19-89a1-e8b79f2e6cda",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 32,
-            "eventtype": 5,
+            "enumb": 38,
+            "eventtype": 9,
             "m_owner": "1010109f-6a48-4a65-b7c6-5977d523b613"
         },
         {
-            "id": "94c95855-5c00-4d19-89a1-e8b79f2e6cda",
+            "id": "53a13fdf-50b5-4626-9b6b-b1a026f07cfa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -204,6 +204,20 @@
             "value": "4",
             "varName": "boost_force",
             "varType": 0
+        },
+        {
+            "id": "15f0add7-b5e3-457d-855c-d3ead79fc34b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "right",
+            "varName": "face_direction",
+            "varType": 2
         }
     ],
     "solid": false,

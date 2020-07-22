@@ -90,7 +90,7 @@
             "Key": "61c87667-e2f0-441d-a53d-66ec353da3d4",
             "Value": {
                 "id": "980d8d4e-9071-4b8c-8357-67b35e97a278",
-                "resourcePath": "sprites\\Tileset_sprite\\Tileset_sprite.yy",
+                "resourcePath": "sprites\\Tileset_sprite_placeholder\\Tileset_sprite_placeholder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -151,11 +151,27 @@
             }
         },
         {
+            "Key": "a63dae78-6563-48c0-8803-bf222958ad0d",
+            "Value": {
+                "id": "4c6a3a38-137e-44f7-b03d-f3f4275a7b24",
+                "resourcePath": "sprites\\laser_beam_placeholder\\laser_beam_placeholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "abe82f8d-acb1-4ca8-b394-5573032f9f58",
             "Value": {
                 "id": "32dc5ea6-3dd7-4443-af85-3d04b77f337a",
                 "resourcePath": "views\\abe82f8d-acb1-4ca8-b394-5573032f9f58.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "abf03e93-9336-4b4e-a988-e4cd44d7e111",
+            "Value": {
+                "id": "3f092f5c-3078-45f7-87be-e66e6308078e",
+                "resourcePath": "objects\\Laser_beam\\Laser_beam.yy",
+                "resourceType": "GMObject"
             }
         },
         {
