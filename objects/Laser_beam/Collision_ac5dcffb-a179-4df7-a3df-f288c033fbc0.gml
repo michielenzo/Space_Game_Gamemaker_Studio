@@ -1,2 +1,2 @@
-other._health -= 10;
+other.current_health -= 10;
 instance_destroy()

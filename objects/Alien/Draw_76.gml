@@ -1,5 +1,7 @@
-//Die
-if(_health <= 0) instance_destroy()
+//Die if health is depleted.
+if(current_health <= 0) instance_destroy()
+
+
 
 //Gravity
 y += velocity
@@ -9,7 +11,7 @@ velocity += acceleration
 var NO_TILE = 0
 var OUTSIDE_ROOM = -1
 
-var left_foot_x = movement_direction == 1 ? x : x + sprite_width //prite_width becomes negative when image_xscale is negative
+var left_foot_x = movement_direction == 1 ? x : x + sprite_width //sprite_width becomes negative when image_xscale is negative
 var right_foot_x = movement_direction == 1 ? x + sprite_width : x
 
 tilemap = layer_tilemap_get_id("Tiles")
@@ -63,8 +65,8 @@ if(STATE == "grounded"){
 	x += (1 * movement_direction)
 }
 
-var sprite_width_positive = sprite_width < 0 ? -sprite_width : sprite_width
-
+//Turn around when the end of the platform is reached
+var sprite_width_positive = sprite_width < 0 ? -sprite_width : sprite_width //sprite_width becomes negative when image_xscale is negative. Therefore this is necessary.
 
 
 if(tile_on_left_foot == NO_TILE && STATE == "grounded"){
@@ -79,6 +81,3 @@ if(tile_on_right_foot == NO_TILE && STATE == "grounded"){
 	movement_direction = -1
 	image_xscale = -1
 }
-
-
-show_debug_message(string(sprite_width_positive))

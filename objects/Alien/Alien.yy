@@ -13,6 +13,16 @@
             "enumb": 76,
             "eventtype": 8,
             "m_owner": "63d5ec80-2754-4501-8f8b-07bf349e3c29"
+        },
+        {
+            "id": "5c296ffd-8566-4e23-ae44-5099e14cc115",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 8,
+            "m_owner": "63d5ec80-2754-4501-8f8b-07bf349e3c29"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,20 @@
     "physicsStartAwake": true,
     "properties": [
         {
+            "id": "02bd5314-5721-4acc-81fb-f7226c5c9a05",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "max_health",
+            "varType": 0
+        },
+        {
             "id": "171dd462-fa79-4ab6-bf0b-3b227bb8f75d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -43,7 +67,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "60",
-            "varName": "_health",
+            "varName": "current_health",
             "varType": 0
         },
         {
