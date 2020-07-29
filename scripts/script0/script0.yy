@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "script0",
     "IsCompatibility": false,
-    "IsDnD": false
+    "IsDnD": true
 }

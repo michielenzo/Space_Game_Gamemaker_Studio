@@ -129,6 +129,34 @@
             "value": "1",
             "varName": "movement_direction",
             "varType": 0
+        },
+        {
+            "id": "810bcf7a-3b04-46ed-8aae-115e879ee95b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "falling",
+            "varName": "LEFT_FOOT_STATE",
+            "varType": 2
+        },
+        {
+            "id": "951826a2-859e-49de-8fd3-0cb3d9b76ef7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "falling",
+            "varName": "RIGHT_FOOT_STATE",
+            "varType": 2
         }
     ],
     "solid": false,
