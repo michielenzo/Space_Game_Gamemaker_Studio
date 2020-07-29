@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "f03c3ebc-a343-483d-af97-13837d5885bc",
+            "Value": {
+                "id": "e12f1d91-fa44-4153-926a-78196328b63b",
+                "resourcePath": "scripts\\gravity_and_tile_collision\\gravity_and_tile_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f6da1f14-8d37-4646-93ea-744f23822f65",
             "Value": {
                 "id": "27978781-3a5d-48b8-8b52-4ae844502ca6",
@@ -280,7 +288,8 @@
         }
     ],
     "script_order": [
-        "d325d557-de30-410e-b69a-9f5b7bee1ce1"
+        "d325d557-de30-410e-b69a-9f5b7bee1ce1",
+        "f03c3ebc-a343-483d-af97-13837d5885bc"
     ],
     "tutorial": ""
 }
