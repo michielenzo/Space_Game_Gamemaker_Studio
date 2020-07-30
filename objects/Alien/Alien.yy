@@ -23,6 +23,16 @@
             "enumb": 73,
             "eventtype": 8,
             "m_owner": "63d5ec80-2754-4501-8f8b-07bf349e3c29"
+        },
+        {
+            "id": "5353b721-1a5a-4320-a6cb-40bd34d2f792",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "63d5ec80-2754-4501-8f8b-07bf349e3c29"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -181,6 +191,62 @@
             "value": "falling",
             "varName": "RIGHT_FOOT_STATE",
             "varType": 2
+        },
+        {
+            "id": "d8dc692b-4f45-4772-be02-99d54fe5a56b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Player",
+            "varName": "player_instance",
+            "varType": 5
+        },
+        {
+            "id": "c6c944ea-e3a3-47c0-ad86-0c8c1f4e6a50",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "400",
+            "varName": "aggro_range",
+            "varType": 0
+        },
+        {
+            "id": "b30219e1-a982-46c9-b130-f7df57a47fd6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_aggroed",
+            "varType": 3
+        },
+        {
+            "id": "b8b79f25-b1e4-45b3-8f3e-74919b0f6b72",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "can_shoot",
+            "varType": 3
         }
     ],
     "solid": false,

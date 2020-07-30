@@ -10,7 +10,7 @@
         "a45d9293-9511-45d8-9e7c-142ee065a7de"
     ],
     "filterType": "GMSprite",
-    "folderName": "Placeholders",
+    "folderName": "placeholders",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

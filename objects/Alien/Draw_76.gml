@@ -1,8 +1,6 @@
 //Die if health is depleted.
 if(current_health <= 0) instance_destroy()
 
-
-
 //Gravity
 y += velocity
 velocity += acceleration
@@ -66,14 +64,12 @@ if(STATE == "grounded"){
 }
 
 //Turn around when the end of the platform is reached
-var sprite_width_positive = sprite_width < 0 ? -sprite_width : sprite_width //sprite_width becomes negative when image_xscale is negative. Therefore this is necessary.
-
+var sprite_width_positive = return_positive(sprite_width) //sprite_width becomes negative when image_xscale is negative. Therefore this is necessary.
 
 if(tile_on_left_foot == NO_TILE && STATE == "grounded"){
 	if(movement_direction != 1) x -= sprite_width_positive
 	movement_direction = 1
 	image_xscale = 1
-	
 }
 
 if(tile_on_right_foot == NO_TILE && STATE == "grounded"){
@@ -81,3 +77,19 @@ if(tile_on_right_foot == NO_TILE && STATE == "grounded"){
 	movement_direction = -1
 	image_xscale = -1
 }
+
+//Aggro
+is_aggroed = distance_to_object(player_instance) <= aggro_range ? true : false
+
+if(is_aggroed && can_shoot){
+	var x_spawn_pos = movement_direction == -1 ? x - 25 - sprite_width_positive : x + sprite_width_positive
+	var y_spawn_pos = y + sprite_height / 2
+	var _direction = movement_direction == -1 ? 180 : 0
+	shoot_laser_beam(x_spawn_pos, y_spawn_pos, _direction)
+	
+	alarm_set(0, 120)
+	can_shoot = false
+}
+	
+
+
