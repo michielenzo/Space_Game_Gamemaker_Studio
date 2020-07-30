@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "b760b7e7-4e83-4442-ba9e-1ffbde3de119",
+            "Value": {
+                "id": "c73a52b0-488c-4326-97f9-bdd850a1f214",
+                "resourcePath": "scripts\\floor_tile_collision_at_pixel\\floor_tile_collision_at_pixel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c5d57a56-487e-4504-9cae-566510132b58",
             "Value": {
                 "id": "1e8c4d0d-95ef-47c9-938d-6bae24868936",
@@ -251,6 +259,14 @@
             "Value": {
                 "id": "7f71352a-2911-47e7-bccf-f8571e11c1e3",
                 "resourcePath": "views\\d5276953-dd09-4f25-8c34-ac4f0a5d09ae.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e74b8b84-0bfa-41dd-adbd-c752e0dcb65b",
+            "Value": {
+                "id": "6961e901-8fe2-4329-b8db-bb4ab5d45511",
+                "resourcePath": "views\\e74b8b84-0bfa-41dd-adbd-c752e0dcb65b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -297,7 +313,8 @@
     ],
     "script_order": [
         "f03c3ebc-a343-483d-af97-13837d5885bc",
-        "263c889f-cc71-4bdb-a36f-22fd44623904"
+        "263c889f-cc71-4bdb-a36f-22fd44623904",
+        "b760b7e7-4e83-4442-ba9e-1ffbde3de119"
     ],
     "tutorial": ""
 }
