@@ -218,6 +218,20 @@
             "value": "right",
             "varName": "face_direction",
             "varType": 2
+        },
+        {
+            "id": "cd514bbd-3d22-405a-a3d2-9975f9bd5bba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "right",
+            "varName": "prev_face_direction",
+            "varType": 2
         }
     ],
     "solid": false,
