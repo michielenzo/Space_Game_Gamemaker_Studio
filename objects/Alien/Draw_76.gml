@@ -1,5 +1,8 @@
 //Die if health is depleted.
-if(current_health <= 0) instance_destroy()
+if(current_health <= 0){
+	instance_destroy()
+	return
+}
 
 //Gravity
 y += velocity
@@ -17,7 +20,7 @@ var right_foot_x = movement_direction == 1 ? x + sprite_width : x
 var tile_on_left_foot = tilemap_get_at_pixel(tilemap, left_foot_x, y + sprite_height)
 var tile_on_right_foot = tilemap_get_at_pixel(tilemap, right_foot_x, y + sprite_height)
 
-if(floor_tile_collision_at_pixel(left_foot_x, y, yprevious, sprite_height, yprevious_from_fall_left, tile_on_left_foot)){
+if(floor_tile_collision_at_pixel(id, left_foot_x, y, yprevious_from_fall_left)){
 	velocity = 0
 	STATE = "grounded"
 	LEFT_FOOT_STATE = "grounded"
@@ -28,7 +31,7 @@ if(floor_tile_collision_at_pixel(left_foot_x, y, yprevious, sprite_height, yprev
 	} 
 }
 
-if(floor_tile_collision_at_pixel(right_foot_x, y, yprevious, sprite_height, yprevious_from_fall_right, tile_on_right_foot)){
+if(floor_tile_collision_at_pixel(id, right_foot_x, y, yprevious_from_fall_right)){
 	velocity = 0
 	STATE = "grounded"
 	RIGHT_FOOT_STATE = "grounded"
