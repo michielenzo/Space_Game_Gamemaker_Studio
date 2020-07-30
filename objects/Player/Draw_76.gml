@@ -23,9 +23,9 @@ if(floor_tile_collision_at_pixel(id, right_foot_x, y, yprevious_from_fall_right)
 }
 
 //Turn around
-image_xscale =  face_direction == "right" ?  1 : -1
 if(face_direction != prev_face_direction){
 	x = face_direction == "left" ? x + return_positive(sprite_width) : x - return_positive(sprite_width)
 } 
+image_xscale =  face_direction == "right" ?  1 : -1
 prev_face_direction = face_direction
 
