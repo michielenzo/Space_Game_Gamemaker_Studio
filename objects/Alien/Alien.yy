@@ -247,6 +247,20 @@
             "value": "True",
             "varName": "can_shoot",
             "varType": 3
+        },
+        {
+            "id": "868a5391-cb40-434d-ae8e-10214905b45a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "prev_facing_player",
+            "varType": 3
         }
     ],
     "solid": false,

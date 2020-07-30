@@ -309,12 +309,21 @@
                 "resourcePath": "views\\fdb5cac0-af10-471b-acd6-c5693713d390.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fdd37913-fe70-49da-8c8b-ae471531adb2",
+            "Value": {
+                "id": "c27e3a84-00cd-42f1-a42e-70f606f153d1",
+                "resourcePath": "scripts\\apply_gravity\\apply_gravity.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "f03c3ebc-a343-483d-af97-13837d5885bc",
         "263c889f-cc71-4bdb-a36f-22fd44623904",
-        "b760b7e7-4e83-4442-ba9e-1ffbde3de119"
+        "b760b7e7-4e83-4442-ba9e-1ffbde3de119",
+        "fdd37913-fe70-49da-8c8b-ae471531adb2"
     ],
     "tutorial": ""
 }

@@ -1,10 +1,10 @@
+//Die
+if(current_health <= 0)	room_restart()
+
 //Gravity
-y += velocity
-velocity += acceleration
+apply_gravity(id)
 
 //Tile collision
-tilemap = layer_tilemap_get_id("Tiles")
-
 var left_foot_x = face_direction == "right" ? x : x + sprite_width
 var right_foot_x = face_direction == "right" ? x + sprite_width : x
 
