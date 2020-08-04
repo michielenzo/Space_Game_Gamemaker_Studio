@@ -1,8 +1,8 @@
 {
-    "id": "d325d557-de30-410e-b69a-9f5b7bee1ce1",
+    "id": "fdd37913-fe70-49da-8c8b-ae471531adb2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "script0",
+    "name": "apply_gravity",
     "IsCompatibility": false,
     "IsDnD": false
 }
